@@ -7,7 +7,7 @@ Currently, this application does not have a front end. It is something that will
 
 | HTTP Method | Resource URI | Request Body | Returns |
 |-------------|--------------|--------------|---------|
-|GET          |'api/books/{id}'|            |Book     |
-|POST         |'api/books'   |New Book      |New Book |
-|PUT          |'api/books/{id}'|Updated Book|Updated Book|
-|DELETE       |'api/books/{id}'|            |True     |
+|GET          |`api/books/{id}`|            |Book     |
+|POST         |`api/books`   |New Book      |New Book |
+|PUT          |`api/books/{id}`|Updated Book|Updated Book|
+|DELETE       |`api/books/{id}`|            |True     |
