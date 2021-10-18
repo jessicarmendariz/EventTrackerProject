@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WORKING TITLE</title>
+<script src="js/script.js"></script>
+</head>
+<body>
+  <h1>Welcome to Book Event</h1>
+  <form name="bookForm">
+    <input type="number" name="bookId">
+    <button name="lookup">Get Book by Id</button>
+  </form>
+  <div id="output">
+    <div id="bookData"></div>
+  <button id="delete">Delete</button>
+
+  </div>
+  <hr>
+  <h3 id="formName">Add a Book</h3>
+  <form name="newBookForm">
+    <label for="title">Title</label>
+    <input type="text" name="title"> <br>
+    <label for="description">Description</label> <br>
+    <textarea rows=4 cols="30" name="description"></textarea> <br>
+    <label for="author">Author</label>
+    <input type="text" name="author"> <br>
+    <label for="series">Series</label>
+    <input type="text" name="series"> <br>
+    <label for="imageUrl"> Image URL</label>
+    <input type="text" name="imageUrl"> <br>
+    <label for="studied">Read</label>
+    <select name="studied">
+      <option value="Y">Yes</option>
+      <option value="N">No</option>
+    </select> <br> --->
+    <button type="button" name="addBook">Add Book</button>
+    <button name="edit">Edit</button>
+  </form>
+</body>
+</html>
