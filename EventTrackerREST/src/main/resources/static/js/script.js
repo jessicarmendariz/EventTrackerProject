@@ -24,7 +24,7 @@ window.addEventListener('load', function(e) {
     xhr.onreadystatechange = function() {
       // console.log(xhr)
       if (xhr.readyState === 4) {
-        if (xhr.status === 202) {
+        if (xhr.status < 400) {
           let book = JSON.parse(xhr.responseText);
           console.log(book.title);
           displayBook(book);
